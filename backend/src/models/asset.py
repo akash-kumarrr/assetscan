@@ -10,7 +10,7 @@ class Status(str, Enum):
 
 class Asset(BaseModel):
     id : int
-    asset_tag : Optional[str]  #unique QR string
+    qr : Optional[str]  #unique QR string
     category : str
     model : Optional[str]
     serial_number : int
