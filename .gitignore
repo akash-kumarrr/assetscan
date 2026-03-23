@@ -7,7 +7,7 @@ venv/
 env/
 .venv/
 .env
-secrets/
+secrets/git push origin main
 # Flask
 instance/
 .webassets-cache

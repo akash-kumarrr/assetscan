@@ -2,12 +2,15 @@ from fastapi import APIRouter, HTTPException
 from models.asset import Asset
 from google.cloud import firestore
 from db import db 
+from scripts.hashing import encrypt
+
 
 router = APIRouter(prefix="/assets", tags=["asset"])
 
 @router.post("/add")
 async def add_asset(asset : Asset):
     try:
+        asset.qr = encrypt(asset.id)
         asset_data = asset.model_dump()
         asset_data["created_on"] = firestore.SERVER_TIMESTAMP
         db.collection("assets").document(asset.id).set(asset_data)
