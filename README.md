@@ -11,7 +11,7 @@
 ![Python](https://img.shields.io/badge/Python_3.11+-F59E0B?style=for-the-badge&logo=python&logoColor=black)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 <br/>
@@ -34,7 +34,7 @@
 
 > **AssetScan** is a professional IT asset management utility that bridges the gap between physical hardware and digital records using high-speed QR technology.
 
-Built for organizations that need to **track, assign, and audit physical hardware at scale** — with a Flutter mobile app for field staff and a web dashboard for administrators, all powered by a FastAPI + PostgreSQL backend.
+Built for organizations that need to **track, assign, and audit physical hardware at scale** — with a Flutter mobile app for field staff and a web dashboard for administrators, all powered by a FastAPI + Firebase backend.
 
 <br/>
 
@@ -63,7 +63,7 @@ Built for organizations that need to **track, assign, and audit physical hardwar
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,fastapi,flutter,dart,postgres,docker&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,fastapi,flutter,dart,firebase,docker&theme=dark" />
 
 <br/><br/>
 
@@ -71,7 +71,7 @@ Built for organizations that need to **track, assign, and audit physical hardwar
 |:---:|:---|:---|
 | 🐍 **Backend** | Python 3.11+ · FastAPI | REST API, QR generation, business logic |
 | 🎯 **Frontend** | Dart · Flutter | Mobile scanner app + Web admin dashboard |
-| 🗄️ **Database** | PostgreSQL 15+ | Asset records, transaction history |
+| 🗄️ **Database** | Firebase | Asset records, transaction history |
 | 🐳 **DevOps** | Docker · Docker Compose | Containerized deployment |
 
 </div>
