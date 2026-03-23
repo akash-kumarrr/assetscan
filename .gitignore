@@ -7,12 +7,14 @@ venv/
 env/
 .venv/
 .env
-
+secrets/
 # Flask
 instance/
 .webassets-cache
 
 # Secrets & Environment Variables
+secrets/
+.secrets/
 serviceAccountKey.json
 control_unit.py
 .env.example
