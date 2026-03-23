@@ -15,6 +15,8 @@ class Setting(BaseSettings):
     host: str = Field(default="0.0.0.0", alias="SERVER_HOST")
     port: int = Field(default=8000, alias="SERVER_PORT")
 
+    firebase_db_url : str = "secrets/serviceAccountKey.json"
+
 
     class Config:
         env_file=".env"
